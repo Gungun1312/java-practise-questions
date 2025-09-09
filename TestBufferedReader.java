@@ -1,13 +1,16 @@
 import java.io.*;
 
 public class TestBufferedReader {
+    //****[] BufferedReader Example *****
+
+
     // public static void main(String args[]) throws IOException {
     // BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     // System.out.println("Enter your name:");
     // String name = br.readLine();
     // System.out.println("hello " + name);
 
-
+    //** sum using bufferedReader **/
 
 
     // public static void main(String args[] ) throws IOException{
@@ -22,14 +25,19 @@ public class TestBufferedReader {
     // }
 
 
-    //Multiline  input using bufferedReader
-    public static void main( String args[]) throws IOException{
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        System.out.println("enter test(type 'exit' to quit):");
-        String line;
-        while(!(line = br.readLine()).equalsIgnoreCase("exit")){
-            System.out.println( "you entered: " + line);
-        }
-    }
+    //*****Multiline  input using bufferedReader until  a condition lets say "exit"*****
+
+
+    // public static void main( String args[]) throws IOException{
+    //     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    //     System.out.println("enter test(type 'exit' to quit):");
+    //     String line;
+    //     while(!(line = br.readLine()).equalsIgnoreCase("exit")){
+    //         System.out.println( "you entered: " + line);
+    //     }
+    // }
+
+
+
 }
 
